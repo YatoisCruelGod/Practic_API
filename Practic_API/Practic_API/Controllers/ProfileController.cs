@@ -58,12 +58,14 @@ namespace Practic_API.Controllers
             {
                 return BadRequest("Profile not found");
             }
+            
             profile.Login = login;
             profile.Password = password;
             profile.Email = email;
             profile.FirstName = firstName;
             profile.LastName = lastName;
             profile.DateOfBirth = dateOfBirth;
+
             Context.SaveChanges();
             return Ok(profile);
         }
