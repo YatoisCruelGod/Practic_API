@@ -1,0 +1,333 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\payloads\\postresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\payloads\\postresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\controllers\\recipeingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\controllers\\recipeingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\controllers\\commnetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\controllers\\commnetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\controllers\\healthtipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\controllers\\healthtipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\controllers\\postcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\controllers\\postcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\controllers\\followerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\controllers\\followerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\models\\practiccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\models\\practiccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\migrations\\20241220063403_migratonname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\migrations\\20241220063403_migratonname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\practic_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\practic_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Models\\Profile.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Models\\Profile.cs",
+              "RelativeToolTip": "Practic_API\\Models\\Profile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T10:38:37.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostResponse.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Payloads\\PostResponse.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Payloads\\PostResponse.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Payloads\\PostResponse.cs",
+              "RelativeToolTip": "Practic_API\\Payloads\\PostResponse.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAArwB0AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:44:30.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Models\\Post.cs",
+              "RelativeToolTip": "Practic_API\\Models\\Post.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvx8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:35:42.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Practic_API\\Controllers\\ProfileController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwDoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:12:44.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TagsController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\TagsController.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Controllers\\TagsController.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\TagsController.cs",
+              "RelativeToolTip": "Practic_API\\Controllers\\TagsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:11:31.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RecipeIngredientController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\RecipeIngredientController.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Controllers\\RecipeIngredientController.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\RecipeIngredientController.cs",
+              "RelativeToolTip": "Practic_API\\Controllers\\RecipeIngredientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:10:25.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Practic_API\\Controllers\\PostController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAewBkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:07:49.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Models\\Tag.cs",
+              "RelativeToolTip": "Practic_API\\Models\\Tag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T06:43:18.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Program.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Program.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Program.cs",
+              "RelativeToolTip": "Practic_API\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T06:35:11.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommnetsController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\CommnetsController.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Controllers\\CommnetsController.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\CommnetsController.cs",
+              "RelativeToolTip": "Practic_API\\Controllers\\CommnetsController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAA7wDkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T06:56:14.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PostCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\PostCategoryController.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Controllers\\PostCategoryController.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\PostCategoryController.cs",
+              "RelativeToolTip": "Practic_API\\Controllers\\PostCategoryController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:05:36.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LikesController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\LikesController.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Controllers\\LikesController.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\LikesController.cs",
+              "RelativeToolTip": "Practic_API\\Controllers\\LikesController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwCQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:04:57.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HealthTipsController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\HealthTipsController.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Controllers\\HealthTipsController.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\HealthTipsController.cs",
+              "RelativeToolTip": "Practic_API\\Controllers\\HealthTipsController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwFUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:03:40.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FollowersController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\FollowersController.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Controllers\\FollowersController.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\FollowersController.cs",
+              "RelativeToolTip": "Practic_API\\Controllers\\FollowersController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAswFAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:02:23.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FavoritesController.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\FavoritesController.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Controllers\\FavoritesController.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\FavoritesController.cs",
+              "RelativeToolTip": "Practic_API\\Controllers\\FavoritesController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAzwEsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T07:00:47.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Practic_API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\appsettings.Development.json",
+              "RelativeToolTip": "Practic_API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-20T06:34:33.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20241220063403_MigratonName.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Migrations\\20241220063403_MigratonName.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Migrations\\20241220063403_MigratonName.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Migrations\\20241220063403_MigratonName.cs",
+              "RelativeToolTip": "Practic_API\\Migrations\\20241220063403_MigratonName.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T06:34:03.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PracticContext.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Models\\PracticContext.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Models\\PracticContext.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Models\\PracticContext.cs",
+              "RelativeToolTip": "Practic_API\\Models\\PracticContext.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwCMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T06:33:19.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Practic_API.csproj",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Practic_API.csproj",
+              "RelativeDocumentMoniker": "Practic_API\\Practic_API.csproj",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Practic_API.csproj",
+              "RelativeToolTip": "Practic_API\\Practic_API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-20T06:28:54.335Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
