@@ -34,6 +34,7 @@ public partial class PracticContext : DbContext
     public virtual DbSet<Recipeingredient> Recipeingredients { get; set; }
 
     public virtual DbSet<Tag> Tags { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Comment>(entity =>

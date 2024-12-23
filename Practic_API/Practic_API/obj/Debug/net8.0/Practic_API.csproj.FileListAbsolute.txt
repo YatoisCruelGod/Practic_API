@@ -166,3 +166,4 @@ C:\Users\kiril\OneDrive\Desktop\Practic_API\Practic_API\Practic_API\obj\Debug\ne
 C:\Users\kiril\OneDrive\Desktop\Practic_API\Practic_API\Practic_API\obj\Debug\net8.0\Practic_API.pdb
 C:\Users\kiril\OneDrive\Desktop\Practic_API\Practic_API\Practic_API\obj\Debug\net8.0\Practic_API.genruntimeconfig.cache
 C:\Users\kiril\OneDrive\Desktop\Practic_API\Practic_API\Practic_API\obj\Debug\net8.0\ref\Practic_API.dll
+C:\Users\kiril\OneDrive\Desktop\Practic_API\Practic_API\Practic_API\obj\Debug\net8.0\Practic_API.sourcelink.json
