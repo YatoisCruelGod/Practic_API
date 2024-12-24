@@ -29,6 +29,9 @@ namespace Practic_API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            app.UseCors(builder => builder.WithOrigins(new[] {"https://localhost:7242"})
+            .AllowAnyHeader()
+            .AllowAnyMethod());
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();
