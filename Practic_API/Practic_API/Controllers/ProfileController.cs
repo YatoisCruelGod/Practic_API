@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Practic_API.Models;
 
 namespace Practic_API.Controllers
@@ -17,13 +18,17 @@ namespace Practic_API.Controllers
         [HttpGet]
         public IActionResult GetResult()
         {
-            List<Profile> profile = Context.Profiles.ToList();
+            List<Profile> profile = Context.Profiles
+                .Include(p => p.Posts)
+                .ToList();
             return Ok(profile);
         }
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            Profile? profile = Context.Profiles.Where(x => x.Profileid == id).FirstOrDefault();
+            Profile? profile = Context.Profiles.Where(x => x.Profileid == id)
+                .Include(p => p.Posts)
+                .FirstOrDefault();
             if (profile == null)
             {
                 return BadRequest("not found");
