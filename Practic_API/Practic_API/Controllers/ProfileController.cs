@@ -18,17 +18,13 @@ namespace Practic_API.Controllers
         [HttpGet]
         public IActionResult GetResult()
         {
-            List<Profile> profile = Context.Profiles
-                .Include(p => p.Posts)
-                .ToList();
+            List<Profile> profile = Context.Profiles.ToList();
             return Ok(profile);
         }
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            Profile? profile = Context.Profiles.Where(x => x.Profileid == id)
-                .Include(p => p.Posts)
-                .FirstOrDefault();
+            Profile? profile = Context.Profiles.Where(x => x.Profileid == id).FirstOrDefault();
             if (profile == null)
             {
                 return BadRequest("not found");
