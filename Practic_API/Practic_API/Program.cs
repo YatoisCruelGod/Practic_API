@@ -10,6 +10,7 @@ namespace Practic_API
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddDbContext<PracticContext>(options => options.UseSqlServer(builder.Configuration["ConnectionString"]));
+            
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

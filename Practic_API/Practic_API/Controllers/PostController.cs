@@ -88,30 +88,6 @@ namespace Practic_API.Controllers
 
             Context.SaveChanges();
 
-            /*foreach (var tagName in tags.Distinct())
-            {
-                Tag? tag = Context.Tags.FirstOrDefault(t => t.TagName == tagName);
-                if (tag == null)
-                {
-                    tag = new Tag { TagName = tagName };
-                    Context.Tags.Add(tag);
-                    Context.SaveChanges();
-                }
-
-                var linkExists = Context.Database.ExecuteSqlRaw(
-                    "SELECT COUNT(1) FROM post_tags WHERE postid = {0} AND tagid = {1}",
-                    postid, tag.Tagid
-                ) > 0;
-
-                if (!linkExists)
-                {
-                    Context.Database.ExecuteSqlRaw(
-                        "INSERT INTO post_tags (postid, tagid) VALUES ({0}, {1})",
-                        postid, tag.Tagid
-                    );
-                }
-            }*/
-
             return Ok("Tags added successfully");
         }
 
@@ -119,21 +95,22 @@ namespace Practic_API.Controllers
         [HttpPut]
         public IActionResult Update(int postid, int creatorprofileid, int categoryid, string post_title, string post_text, DateTime post_date, List<string> posttags)
         {
-            Post? posts = Context.Posts.FirstOrDefault(x => x.Postid == postid);
-            if (posts == null)
+            Post? post = Context.Posts
+                .Include(p => p.Tags)
+                .FirstOrDefault(x => x.Postid == postid);
+
+            if (post == null)
             {
                 return BadRequest("Post not found");
             }
-            posts.Creatorprofileid = creatorprofileid;
-            posts.Categoryid = categoryid;
-            posts.PostTitle = post_title;
-            posts.PostText = post_text;
-            posts.PostDate = post_date;
-            Context.SaveChanges();
-            Context.Database.ExecuteSqlRaw(
-                "DELETE FROM post_tags WHERE postid = {0}",
-                postid
-            );
+
+            post.Creatorprofileid = creatorprofileid;
+            post.Categoryid = categoryid;
+            post.PostTitle = post_title;
+            post.PostText = post_text;
+            post.PostDate = post_date;
+
+            post.Tags.Clear();
 
             foreach (var tagName in posttags)
             {
@@ -142,14 +119,13 @@ namespace Practic_API.Controllers
                 {
                     tag = new Tag { TagName = tagName };
                     Context.Tags.Add(tag);
-                    Context.SaveChanges();
                 }
-                Context.Database.ExecuteSqlRaw(
-                    "INSERT INTO post_tags (postid, tagid) VALUES ({0}, {1})",
-                    postid, tag.Tagid
-                );
+                post.Tags.Add(tag);
             }
-            return Ok(posts);
+
+            Context.SaveChanges();
+
+            return Ok(post);
         }
 
 

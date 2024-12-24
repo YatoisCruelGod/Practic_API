@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\practic_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\practic_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C07B8DED-8938-4E59-ACBE-20C66C437A76}|BlazorClient\\BlazorClient.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\blazorclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C07B8DED-8938-4E59-ACBE-20C66C437A76}|BlazorClient\\BlazorClient.csproj|solutionrelative:blazorclient\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -61,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\models\\practiccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\models\\practiccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|solutionrelative:practic_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8D1D358-85DB-41AB-8B90-7CB061C677FB}|Practic_API\\Practic_API.csproj|c:\\users\\kiril\\onedrive\\desktop\\practic_api\\practic_api\\practic_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -138,37 +142,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Practic_API.http",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Practic_API.http",
+              "RelativeDocumentMoniker": "Practic_API\\Practic_API.http",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Practic_API.http",
+              "RelativeToolTip": "Practic_API\\Practic_API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-23T20:44:33.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BlazorClient\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\Layout\\NavMenu.razor",
               "RelativeToolTip": "BlazorClient\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T20:34:27.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T20:34:27.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "BlazorClient\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "BlazorClient\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T20:34:19.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\_Imports.razor",
               "RelativeDocumentMoniker": "BlazorClient\\_Imports.razor",
@@ -176,12 +178,11 @@
               "RelativeToolTip": "BlazorClient\\_Imports.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T20:33:00.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T20:33:00.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\Dockerfile",
               "RelativeDocumentMoniker": "BlazorClient\\Dockerfile",
@@ -189,12 +190,11 @@
               "RelativeToolTip": "BlazorClient\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-23T20:32:43.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T20:32:43.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "nginx.conf",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\nginx.conf",
               "RelativeDocumentMoniker": "BlazorClient\\nginx.conf",
@@ -202,12 +202,11 @@
               "RelativeToolTip": "BlazorClient\\nginx.conf",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-23T20:32:39.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T20:32:39.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Profiles.razor",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\Pages\\Profiles.razor",
               "RelativeDocumentMoniker": "BlazorClient\\Pages\\Profiles.razor",
@@ -215,12 +214,11 @@
               "RelativeToolTip": "BlazorClient\\Pages\\Profiles.razor",
               "ViewState": "AQIAAB0AAAAAAAAAAAAcwEMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T19:49:16.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T19:49:16.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorClient\\Pages\\Home.razor",
@@ -228,12 +226,36 @@
               "RelativeToolTip": "BlazorClient\\Pages\\Home.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T19:48:33.081Z",
+              "WhenOpened": "2024-12-23T19:48:33.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Program.cs",
+              "RelativeDocumentMoniker": "Practic_API\\Program.cs",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Program.cs",
+              "RelativeToolTip": "Practic_API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T06:35:11.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorClient\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorClient\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T20:34:19.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "BlazorClient\\Properties\\launchSettings.json",
@@ -241,12 +263,11 @@
               "RelativeToolTip": "BlazorClient\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-23T19:46:53.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T19:46:53.754Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "BlazorClient\\wwwroot\\index.html",
@@ -254,12 +275,11 @@
               "RelativeToolTip": "BlazorClient\\wwwroot\\index.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-23T19:43:54.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T19:43:54.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\App.razor",
               "RelativeDocumentMoniker": "BlazorClient\\App.razor",
@@ -267,12 +287,11 @@
               "RelativeToolTip": "BlazorClient\\App.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T19:43:26.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T19:43:26.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\Program.cs",
               "RelativeDocumentMoniker": "BlazorClient\\Program.cs",
@@ -280,12 +299,11 @@
               "RelativeToolTip": "BlazorClient\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T19:34:15.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T19:34:15.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\BlazorClient\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "BlazorClient\\wwwroot\\css\\app.css",
@@ -293,12 +311,11 @@
               "RelativeToolTip": "BlazorClient\\wwwroot\\css\\app.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAJ8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-23T18:51:12.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T18:51:12.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\appsettings.json",
               "RelativeDocumentMoniker": "Practic_API\\appsettings.json",
@@ -306,12 +323,11 @@
               "RelativeToolTip": "Practic_API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-22T20:53:52.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T20:53:52.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "PostController.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "Practic_API\\Controllers\\PostController.cs",
@@ -323,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Practic_API\\appsettings.Development.json",
@@ -336,18 +352,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Program.cs",
-              "RelativeDocumentMoniker": "Practic_API\\Program.cs",
-              "ToolTip": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Program.cs",
-              "RelativeToolTip": "Practic_API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T06:35:11.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "CommentsController.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\CommentsController.cs",
               "RelativeDocumentMoniker": "Practic_API\\Controllers\\CommentsController.cs",
@@ -359,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "PracticContext.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Models\\PracticContext.cs",
               "RelativeDocumentMoniker": "Practic_API\\Models\\PracticContext.cs",
@@ -371,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "RecipeIngredientController.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\RecipeIngredientController.cs",
               "RelativeDocumentMoniker": "Practic_API\\Controllers\\RecipeIngredientController.cs",
@@ -383,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "TagsController.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\TagsController.cs",
               "RelativeDocumentMoniker": "Practic_API\\Controllers\\TagsController.cs",
@@ -395,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "Practic_API\\Controllers\\ProfileController.cs",
@@ -407,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Models\\Post.cs",
               "RelativeDocumentMoniker": "Practic_API\\Models\\Post.cs",
@@ -419,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "PostResponse.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Payloads\\PostResponse.cs",
               "RelativeDocumentMoniker": "Practic_API\\Payloads\\PostResponse.cs",
@@ -431,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Profile.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Models\\Profile.cs",
               "RelativeDocumentMoniker": "Practic_API\\Models\\Profile.cs",
@@ -443,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Models\\Tag.cs",
               "RelativeDocumentMoniker": "Practic_API\\Models\\Tag.cs",
@@ -455,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "PostCategoryController.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\PostCategoryController.cs",
               "RelativeDocumentMoniker": "Practic_API\\Controllers\\PostCategoryController.cs",
@@ -467,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "LikesController.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\LikesController.cs",
               "RelativeDocumentMoniker": "Practic_API\\Controllers\\LikesController.cs",
@@ -479,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "HealthTipsController.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\HealthTipsController.cs",
               "RelativeDocumentMoniker": "Practic_API\\Controllers\\HealthTipsController.cs",
@@ -491,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "FollowersController.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\FollowersController.cs",
               "RelativeDocumentMoniker": "Practic_API\\Controllers\\FollowersController.cs",
@@ -503,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "FavoritesController.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Controllers\\FavoritesController.cs",
               "RelativeDocumentMoniker": "Practic_API\\Controllers\\FavoritesController.cs",
@@ -515,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "20241220063403_MigratonName.cs",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Migrations\\20241220063403_MigratonName.cs",
               "RelativeDocumentMoniker": "Practic_API\\Migrations\\20241220063403_MigratonName.cs",
@@ -527,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Practic_API.csproj",
               "DocumentMoniker": "C:\\Users\\kiril\\OneDrive\\Desktop\\Practic_API\\Practic_API\\Practic_API\\Practic_API.csproj",
               "RelativeDocumentMoniker": "Practic_API\\Practic_API.csproj",
@@ -535,8 +539,7 @@
               "RelativeToolTip": "Practic_API\\Practic_API.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-20T06:28:54.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T06:28:54.335Z"
             }
           ]
         }
