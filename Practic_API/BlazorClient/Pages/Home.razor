@@ -1,0 +1,120 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<section id="about-us">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <h1>О проекте</h1>
+                <p>Добро пожаловать на платформу, где вы найдете статьи, рецепты, советы по здоровью и фитнесу.</p>
+                <p>Мы объединяем авторов и читателей для вдохновения и новых идей!</p>
+            </div>
+            <div class="col">
+                <img src="https://sun1-87.userapi.com/impg/KfbxuDIbudzKrF4tWPXKk-RLUX32IrAWek2hEg/-qootJ6niZs.jpg?size=852x790&quality=96&sign=53d5c3a9ad149fe332b6ad99d4e2a36b&c_uniq_tag=tCHDvkaTTSYzhKU-FB4VQc8VGzB9gZXXk88EFgt1cN4&type=album" alt="О проекте" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<nav class="py-3 navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Платформа для здоровья</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/profiles">Профили</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Добро пожаловать на<br>нашу платформу!</h1>
+                <p>Читайте, публикуйте и делитесь полезными статьями, рецептами и советами о здоровом образе жизни!</p>
+            </div>
+        </div>
+        <div class="row cards">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://sun9-50.userapi.com/impg/fBfjtbJpQYeIDpGEpt4DVhVdfx0frywf4Y-Urw/Capmcd2Ttu0.jpg?size=1024x1012&quality=96&sign=ddef5f5f23de93e75aefc97ad7c352ff&c_uniq_tag=e5YophdbtIUebEyMuVKlnq7dxgpzXGt2nIeDeUAx-rM&type=album" alt="Здоровье в ваших руках" class="icon">
+                        <h5 class="card-title">Здоровье в ваших руках</h5>
+                        <p class="card-text">Получайте проверенные советы для улучшения вашего здоровья каждый день.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://kmkb4.ru/upload/iblock/eba/r1jdk7gqwcjx0jejb59601ebw48cire7.png" alt="Будьте активными" class="icon">
+                        <h5 class="card-title">Будьте активными</h5>
+                        <p class="card-text">Откройте для себя советы и тренировки, которые помогут быть в форме.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://julienquaglierini.com/wp-content/uploads/2021/04/que-manger-avant-la-musculation.jpg" alt="Готовьте с удовольствием" class="icon">
+                        <h5 class="card-title">Готовьте с удовольствием</h5>
+                        <p class="card-text">Находите и делитесь вкусными и полезными рецептами на каждый день.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<p>Текущая дата: @CurrentDate</p>
+<p>Текущее время: @CurrentTime</p>
+
+<section id="contact">
+    <div class="container">
+        <div class="row align-items-center projects">
+            <div class="col">
+                <h1>Любите заботу о себе!</h1>
+                <p>Если хотите поддержать проект, пишите нам!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+@code {
+    public class ProfileModel
+    {
+        public int Profileid { get; set; }
+        public string Login { get; set; } = null!;
+        public string Password { get; set; } = null!;
+        public string Email { get; set; } = null!;
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public DateOnly? DateOfBirth { get; set; }
+    }
+
+    public ProfileModel[] result = new ProfileModel[] { };
+
+    string CurrentDate;
+    string CurrentTime;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var date = DateTime.Now;
+        CurrentDate = date.ToShortDateString();
+        CurrentTime = date.ToShortTimeString();
+
+        var client = new HttpClient();
+        client.BaseAddress = new Uri("https://practic-api.onrender.com/");
+
+        result = await client.GetFromJsonAsync<ProfileModel[]>("Practic_API/ProfilesController");
+
+        return;
+    }
+}

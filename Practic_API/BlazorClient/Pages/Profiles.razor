@@ -1,0 +1,68 @@
+﻿@page "/profiles"
+
+<section id="">
+    <div class="container">
+        <p>Текущее время: @CurrentTime</p>
+        <p>Текущая дата: @CurrentDate</p>
+
+        <h1>Профили пользователей</h1>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Login</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Date of Birth</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var profile in result)
+                {
+                    <tr>
+                        <th scope="row">@profile.Profileid</th>
+                        <td>@profile.Login</td>
+                        <td>@profile.Email</td>
+                        <td>@profile.FirstName</td>
+                        <td>@profile.LastName</td>
+                        <td>@profile.DateOfBirth?.ToShortDateString()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
+
+@code {
+    public class ProfileModel
+    {
+        public int Profileid { get; set; }
+        public string Login { get; set; } = null!;
+        public string Password { get; set; } = null!;
+        public string Email { get; set; } = null!;
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public DateOnly? DateOfBirth { get; set; }
+    }
+
+    public ProfileModel[] result = new ProfileModel[] { };
+
+    string CurrentDate;
+    string CurrentTime;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var date = DateTime.Now;
+        CurrentDate = date.ToShortDateString();
+        CurrentTime = date.ToShortTimeString();
+
+        var client = new HttpClient();
+        client.BaseAddress = new Uri("https://practic-api.onrender.com/");
+
+        result = await client.GetFromJsonAsync<ProfileModel[]>("Practic_API/ProfilesController");
+
+        return;
+    }
+}
