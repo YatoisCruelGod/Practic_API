@@ -1,4 +1,4 @@
-﻿@page "/profiles"
+﻿@page "/Profiles"
 
 <section id="">
     <div class="container">
@@ -61,7 +61,7 @@
         var client = new HttpClient();
         client.BaseAddress = new Uri("https://practic-api.onrender.com");
 
-        result = await client.GetFromJsonAsync<ProfileModel[]>("api/profiles");
+        result = await client.GetFromJsonAsync<ProfileModel[]>("api/Profiles");
 
         return;
     }
