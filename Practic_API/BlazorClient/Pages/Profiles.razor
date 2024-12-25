@@ -59,7 +59,7 @@
         CurrentTime = date.ToShortTimeString();
 
         var client = new HttpClient();
-        client.BaseAddress = new Uri("https://practic-api.onrender.com/");
+        client.BaseAddress = new Uri("https://practic-api.onrender.com");
 
         result = await client.GetFromJsonAsync<ProfileModel[]>("api/profiles");
 
