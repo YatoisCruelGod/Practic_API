@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Practic_API.Models;
+using static System.Net.WebRequestMethods;
 
 namespace Practic_API
 {
@@ -29,7 +30,7 @@ namespace Practic_API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-            app.UseCors(builder => builder.WithOrigins(new[] {"https://localhost:7242"})
+            app.UseCors(builder => builder.WithOrigins(new[] {"https://localhost:7242", "https://practic-api.onrender.com/api/profiles"})
             .AllowAnyHeader()
             .AllowAnyMethod());
 
