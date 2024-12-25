@@ -30,7 +30,7 @@ namespace Practic_API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-            app.UseCors(builder => builder.WithOrigins(new[] {"https://localhost:7242", "https://localhost:5000", "https://practic-api.onrender.com/api/profiles"})
+            app.UseCors(builder => builder.WithOrigins(new[] {"https://localhost:7242", "http://localhost:5000", "https://practic-api.onrender.com/api/profiles"})
             .AllowAnyHeader()
             .AllowAnyMethod());
 
